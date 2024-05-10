@@ -19,6 +19,8 @@ Inside this template Astro project, you'll see the following folders and files:
 /
 ├── public/
 ├── src/
+│   └── layouts/
+│   │    └── Layout.astro
 │   └── pages/
 │   │    └── index.astro
 │   └── styles/
