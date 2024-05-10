@@ -1,0 +1,18 @@
+:root {
+	/* set your font varaibles */
+	--font-family-heading: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+	--font-family-paragraph: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+
+	/* set your color variables */
+	--color-black: black;
+	--color-white: white;
+	--color-purple: rebeccapurple;
+
+	/* customise your color variables for readability */
+	--color-text-primary: var(--color-black);
+	--color-text-secondary: var(--color-white);
+
+	/* set your spacing variables */
+	--gap-x: 1rem;
+	--gap-y: 1rem;
+}

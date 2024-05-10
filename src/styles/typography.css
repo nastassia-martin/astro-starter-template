@@ -1,0 +1,35 @@
+/* Set your typogrpahy variables */
+body {
+	font-size: 20px; /* <- 1rem */
+	font-family: var(--font-family-paragraph);
+	font-size: var(--font-size-body);
+}
+
+/* set line height and readability of text*/
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4 {
+	font-family: var(--font-family-heading);
+	line-height: 1;
+	text-wrap: balance;
+	text-rendering: optimizeLegibility;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+	font-family: inherit;
+	font-size: inherit;
+}
+
+/* Make sure textareas without a rows attribute are not tiny */
+textarea:not([rows]) {
+	min-height: 10em;
+}
